@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import StakNavigator from "./staknavigator";
+
 import { NavigationContainer } from '@react-navigation/native';
+import TabNavigator from "./staknavigator";
 
 
 export default function App() {
   return (
       <NavigationContainer>
-        <StakNavigator/>
+    <TabNavigator/>
       </NavigationContainer>
   );
 }
